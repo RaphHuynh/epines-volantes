@@ -10,7 +10,7 @@ function Home(){
         <div id="Home" className="flex items-center w-full min-h-screen justify-center p-5">
             <div className="container max-w-2xl m-20">
                 <span className="text-yellow-400 text-xl">
-                    Heu ouais salut,
+                    Euh ouais salut,
                 </span>
                 <h1 className="text-7xl text-amber-400">Epines Volantes</h1>
                 <h2 className="text-amber-400/80 text-6xl mb-5">Equipe Mario Kart</h2>
