@@ -2,7 +2,8 @@ import './App.css'
 import NavBar from "./components/navigation/NavBar"
 import Home from "./components/pages/Home"
 import NavReseaux from "./components/navigation/NavReseaux"
-import Roster from "./components/pages/Roster"
+import Roster from './components/pages/Roster'
+import Awards from './components/pages/Awards'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <NavReseaux/>
       <Roster/>
+      <Awards/>
     </div>
   )
 }

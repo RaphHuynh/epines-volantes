@@ -32,7 +32,7 @@ function Roster(){
         {id:"Senoucy", twitch:""},
         {id:"Norsk", twitch:""},
         {id:"Guimauve", twitch:"https://www.twitch.tv/guimauvetv?sr=a"},
-        {id:"Kitkat", twitch:"https://www.twitch.tv/khanapecheeeee?sr=a"}
+        {id:"Sanwoo", twitch:"https://www.twitch.tv/khanapecheeeee?sr=a"}
     ]
 
     return (
@@ -74,7 +74,7 @@ function Roster(){
                     <div className="flex justify-center">
                         <div className="flex flex-wrap justify-center w-4/6">
                             {rosterEclair.map((roster)=>(
-                                <div className="bg-white/5 rounded-lg sm:mx-5 my-5 px-4 hover:bg-blue-400/10 transition delay-50">
+                                <div className="bg-white/5 rounded-lg sm:mx-5 my-5 px-4 hover:bg-blue-400/10 transition delay-50 pt-5">
                                     <img src={logoEclair} alt="epines volantes" width="150px" className="flex justify-center m-auto"></img>
                                     <span className="flex items-center justify-center my-2 mx-auto">
                                         <h2 className="uppercase text-center text-4xl text-yellow-400">{roster.id}</h2>
