@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'clash';
+    src: url('./fonts/ClashGrotesk-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'gambetta';
+    src: url('./fonts/Gambetta-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pencerio';
+    src: url('./fonts/Pencerio-Hairline.otf') format('opentype');
+}
+
+body{
+    font-family: clash;
+}
+
+p{
+    font-family: gambetta;
+}
