@@ -65,7 +65,7 @@ function Roster(){
                     </div>
                 </div>
             </div>
-            <div className="flex items-center w-full min-h-screen justify-center">
+            <div className="flex items-center w-full min-h-screen justify-center mt-10">
                 <div>
                     <div className="flex items-center justify-center">
                         <img src={logoRosterEclair} alt="epines volantes" width="100px"></img>
