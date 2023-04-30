@@ -18,8 +18,9 @@ function Home(){
                     L'épines volantes est une équipe mario kart 8. Elle possède 2 roster compétitifs. Vous pouvez nous suivre sur Twitter mais aussi nous retrouver sur Discord. Nos membres stream régulièrement sur Twitch.
                 </p>
                 <div>
-                    <a href="https://twitter.com/epinesvolantes?lang=fr" target="_blank" className="sound rounded-full transition duration-500 py-2 px-4 bg-yellow-400 text-stone-800 hover:bg-indigo-700 mr-5 hover:text-stone-300" onClick={() => audio.play()}>Twitter</a>
+                    <a href="https://twitter.com/epinesvolantes?lang=fr" target="_blank" className="sound rounded-full transition duration-500 py-2 px-4 bg-yellow-400 text-stone-800 hover:bg-sky-700 mr-5 hover:text-stone-300" onClick={() => audio.play()}>Twitter</a>
                     <a href="https://discord.gg/hCHuRq4Wde" target="_blank" className="sound rounded-full transition duration-500 py-2 px-4 bg-yellow-400 text-stone-800 hover:bg-indigo-700 mr-5 hover:text-stone-300" onClick={() => audio.play()}>Discord</a>
+                    <a href="https://www.twitch.tv/epinesvolantes" target="_blank" className="sound rounded-full transition duration-500 py-2 px-4 bg-yellow-400 text-stone-800 hover:bg-violet-700 mr-5 hover:text-stone-300" onClick={() => audio.play()}>Twitch</a>
                 </div>
             </div>
             <div>
