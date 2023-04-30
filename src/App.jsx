@@ -4,6 +4,7 @@ import Home from "./components/pages/Home"
 import NavReseaux from "./components/navigation/NavReseaux"
 import Roster from './components/pages/Roster'
 import Awards from './components/pages/Awards'
+import Twitch from './components/pages/Twitch'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <NavReseaux/>
       <Roster/>
       <Awards/>
+      <Twitch/>
     </div>
   )
 }
