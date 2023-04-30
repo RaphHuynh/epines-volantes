@@ -12,7 +12,7 @@ const Twitch = () => {
     <div id="Twitch" className="flex items-center w-full min-h-screen justify-center p-5">
         <section>
             <h1 className="text-7xl text-amber-400 text-center mb-7">Twitch</h1>
-            <TwitchEmbed channel="epinesvolantes" autoplay muted withChat darkMode={false} hideControls onVideoReady={handleReady} />
+            <TwitchEmbed channel="epinesvolantes" autoplay muted withChat darkMode={true} hideControls onVideoReady={handleReady} />
         </section>
     </div>
   );

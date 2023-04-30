@@ -17,8 +17,8 @@ function NavBar(){
 
     return (
         <div>
-            <div className="fixed w-full h-15 z-10">
-                <div className="flex items-center">
+            <div className="fixed w-full h-15 z-10 navbar backdrop-blur-sm">
+                <div className="flex items-center z-20">
                     <div className="m-3">
                         <a href="#Home" onClick={() => audio.play()}>
                             <img src={logo} alt="epine volante" width="50px" height="50px"/>
