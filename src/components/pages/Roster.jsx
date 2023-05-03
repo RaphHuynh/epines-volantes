@@ -1,9 +1,13 @@
-export default Roster;
+import React,{useEffect} from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+//importation des images
+//importation des logo des 2 rosters
 
 import logoRosterEpine from "./../../assets/logo2.png"
 import logoRosterEclair from "./../../assets/logoEclair.png"
-import logo from "./../../assets/logo.svg"
-import logoEclair from "./../../assets/lightning.png"
 
 //imporation des avatar roster 1
 import doug from "./../../assets/avatar/doug1.png"
@@ -31,6 +35,8 @@ import kuni from "./../../assets/avatar/kuni.png"
 import norsk from "./../../assets/avatar/norsk.png"
 import guimauve from "./../../assets/avatar/guimauve1.png"
 import kitkat from "./../../assets/avatar/kitkat.png"
+
+export default Roster;
 
 
 function Roster(){
@@ -68,21 +74,27 @@ function Roster(){
         {roster: 2, division: 17}
     ]
 
+    //function
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     return (
         <div>
              <div id="Roster" className="flex items-center w-full min-h-screen justify-center">
                 <div>
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center justify-center" data-aos="fade" data-aos-duration="2000">
                         <img src={logoRosterEpine} alt="epines volantes" width="100px"></img>
                         <h1 className="ml-5 text-7xl text-amber-400">Roster 1 : Epines Volantes</h1>
                     </div>
-                    <div className="w-full flex items-center justify-center">
+                    <div className="w-full flex items-center justify-center" data-aos="fade" data-aos-duration="2000">
                         <p className="my-5 text-justify max-w-3xl text-lg">Voici le Roster 1 de Epines volantes. Actuellement, notre roster est en division {division[0].division} de la MKU. Notre objectif est de remporter le titre de notre division pour devenir une high div.</p>
                     </div>
                     <div className="flex justify-center">
                         <div className="flex flex-wrap justify-center w-4/6">
                             {rosterEpine.map((roster)=>(
-                                <div className="bg-white/5 rounded-lg sm:mx-5 my-5 px-4 hover:bg-blue-400/10 transition delay-50 py-5">
+                                <div className="bg-white/5 rounded-lg sm:mx-5 my-5 px-4 hover:bg-blue-400/10 transition delay-50 py-5" data-aos="fade" data-aos-duration="2000">
                                     <img src={roster.avatar} alt="epines volantes" width="225px" className="flex justify-center m-auto"></img>
                                     <span className="flex items-center justify-center my-2 mx-auto">
                                         <h2 className="uppercase text-center text-4xl text-yellow-400">{roster.id}</h2>
@@ -103,17 +115,17 @@ function Roster(){
             </div>
             <div className="flex items-center w-full min-h-screen justify-center mt-10">
                 <div>
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center justify-center" data-aos="fade" data-aos-duration="2000">
                         <img src={logoRosterEclair} alt="epines volantes" width="100px"></img>
                         <h1 className="ml-5 text-7xl text-amber-400">Roster 2 : Eclair Vicieuse</h1>
                     </div>
-                    <div className="w-full flex items-center justify-center">
+                    <div className="w-full flex items-center justify-center" data-aos="fade" data-aos-duration="2000">
                         <p className="my-5 text-justify max-w-3xl text-lg">Voici le Roster 2 de Epines volantes, l'éclair vicieuse. Pour le moment, notre roster est en division {division[1].division} de la MKU. Nous avons pour but d'essayer de remporter notre division pour monter mais notre premier objectif est dans un premier temps de nous améliorer sur les bases du jeu en équipe.</p>
                     </div>
                     <div className="flex justify-center">
                         <div className="flex flex-wrap justify-center w-4/6">
                             {rosterEclair.map((roster)=>(
-                                <div className="bg-white/5 rounded-lg sm:mx-5 my-5 px-4 hover:bg-blue-400/10 transition delay-50 py-5">
+                                <div className="bg-white/5 rounded-lg sm:mx-5 my-5 px-4 hover:bg-blue-400/10 transition delay-50 py-5" data-aos="fade" data-aos-duration="2000">
                                     <img src={roster.avatar} alt="epines volantes" width="225px" className="flex justify-center m-auto"></img>
                                     <span className="flex items-center justify-center my-2 mx-auto">
                                         <h2 className="uppercase text-center text-4xl text-yellow-400">{roster.id}</h2>
