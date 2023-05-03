@@ -14,7 +14,7 @@ function Home(){
                 </span>
                 <h1 className="text-7xl text-amber-400">Epines Volantes</h1>
                 <h2 className="text-amber-400/80 text-6xl mb-5">Equipe Mario Kart</h2>
-                <p className="text-stone-300 text-xl mb-6 text-justify">
+                <p className="text-xl mb-6 text-justify">
                     L'épines volantes est une équipe mario kart 8. Elle possède 2 roster compétitifs. Vous pouvez nous suivre sur Twitter mais aussi nous retrouver sur Discord. Nos membres stream régulièrement sur Twitch.
                 </p>
                 <div>

@@ -27,6 +27,7 @@ import bfries from "./../../assets/avatar/bfries.png"
 import maxio from "./../../assets/avatar/maxio.png"
 import raquel from "./../../assets/avatar/raquel.png"
 import senoucy from "./../../assets/avatar/senoucy.png"
+import kuni from "./../../assets/avatar/kuni.png"
 import norsk from "./../../assets/avatar/norsk.png"
 import guimauve from "./../../assets/avatar/guimauve1.png"
 import kitkat from "./../../assets/avatar/kitkat.png"
@@ -56,6 +57,7 @@ function Roster(){
         {id:"Maxio", twitch:"", avatar:maxio},
         {id:"Rachel", twitch:"", avatar:raquel},
         {id:"Senoucy", twitch:"", avatar:senoucy},
+        {id:"Kuni", twitch:"", avatar:kuni},
         {id:"Norsk", twitch:"", avatar:norsk},
         {id:"Guimauve", twitch:"https://www.twitch.tv/guimauvetv?sr=a", avatar:guimauve},
         {id:"Kitkat", twitch:"https://www.twitch.tv/khanapecheeeee?sr=a", avatar:kitkat}
