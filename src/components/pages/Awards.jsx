@@ -57,6 +57,11 @@ function Awards(){
                         </div>
                     </div>
                 </div>
+                <div className="w-full flex items-center justify-center">
+                    <p className="my-5 text-justify max-w-3xl text-lg">
+                        La MKU est un tournois organisé par MKC ( Mario Kart Central ). C'est le tournois de référence dans le monde de l'esport MK. Il est organisé à l'échelle modiale. Il se compose autour de 21 divisions.
+                    </p>
+                </div>
                 <div className="flex items-center justify-center my-5">
                     <img src={trophe} alt="mku" width="160px"></img>
                         <h2 className="text-6xl text-yellow-300 text-center my-5">Tournois QL</h2>
@@ -93,6 +98,11 @@ function Awards(){
                             ))}
                         </div>
                     </div>
+                </div>
+                <div className="w-full flex items-center justify-center">
+                    <p className="my-5 text-justify max-w-3xl text-lg">
+                        La QUATOR League est un tournois international. Il se réparti en 5 divisions. C'est un tournois mineur dans l'esport Mario Kart.
+                    </p>
                 </div>
             </div>
         </div>
