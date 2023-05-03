@@ -108,7 +108,7 @@ function Roster(){
                         <h1 className="ml-5 text-7xl text-amber-400">Roster 2 : Eclair Vicieuse</h1>
                     </div>
                     <div className="w-full flex items-center justify-center">
-                        <p className="my-5 text-justify max-w-3xl text-lg">Voici le Roster 2 de Epines volantes, l'éclair vicieuse. Pour le moment, notre roster est en division {division[1].division} de la MKU. Nous avons pour but d'essayer de remporter notre division pour monter mais notre premier objectif est dans un premier temps de nous améliorer sur les bases du jeu en équipe et sur nos runs.</p>
+                        <p className="my-5 text-justify max-w-3xl text-lg">Voici le Roster 2 de Epines volantes, l'éclair vicieuse. Pour le moment, notre roster est en division {division[1].division} de la MKU. Nous avons pour but d'essayer de remporter notre division pour monter mais notre premier objectif est dans un premier temps de nous améliorer sur les bases du jeu en équipe.</p>
                     </div>
                     <div className="flex justify-center">
                         <div className="flex flex-wrap justify-center w-4/6">
