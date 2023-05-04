@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import {useEffect} from "react";
 import { TwitchEmbed } from 'react-twitch-embed';
 
-import logo from "./../../assets/logo2.png"
+import logo from "./../../assets/pokerlogo.png"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

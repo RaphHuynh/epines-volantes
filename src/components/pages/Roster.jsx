@@ -6,8 +6,8 @@ import 'aos/dist/aos.css';
 //importation des images
 //importation des logo des 2 rosters
 
-import logoRosterEpine from "./../../assets/logo2.png"
-import logoRosterEclair from "./../../assets/logoEclair.png"
+import logoRosterEpine from "./../../assets/pokerlogo.png"
+import logoRosterEclair from "./../../assets/pokerlogoeclair.png"
 
 //imporation des avatar roster 1
 import doug from "./../../assets/avatar/doug.png"
@@ -49,7 +49,7 @@ function Roster(){
         {id:"Saru", twitch:"https://www.twitch.tv/saruzzz?sr=a", avatar:saru},
         {id:"Sunset", twitch:"https://www.twitch.tv/sunset_mk8d?sr=a", avatar:sunset},
         {id:"Centi", twitch:"", avatar:centi},
-        {id:"Zorm", twitch:"", avatar:zorm},
+        {id:"Zorm", twitch:"https://www.twitch.tv/zorm__", avatar:zorm},
         {id:"Rafou", twitch:"", avatar:rafou}
     ]
 
